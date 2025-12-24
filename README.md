@@ -1,50 +1,50 @@
-# villacorta-calculator-app
-“A responsive web-based calculator built using HTML, CSS, and JavaScript with advanced features such as keyboard input, history tracking, and clean UI design.”
 
+## Table of Contents
 
+<details>
 
+   <summary>Contents</summary>
 
-> ⚠️ Note:  
+1. [📌 Project Description](#-project-description)
+1. [👤 Student Information](#-student-information)
+1. [⚙️ Features](#-features)
+1. [🛠️ Technologies Used](#-technologies-used)
+1. [📁 File Structure](#-file-structure)
 
+</details>
+# Advanced Calculator Web App
 
----
+## 📌 Project Description
+This project is a responsive web-based calculator developed using **HTML, CSS, and JavaScript**.  
+It is designed to perform basic arithmetic operations with additional features such as keyboard input, calculation history, and user-friendly interface design.
 
-## ▶️ How to Run the Project
-1. Download or clone this repository.
-2. Make sure all three files are in the same folder:
-   - `index.html`
-   - `style.css`
-   - `script.js`
-3. Open `index.html` using any modern web browser (Chrome, Edge, Firefox).
-4. Use the calculator via mouse or keyboard input.
-
----
-
-## 🎹 Keyboard Controls
-- **0–9** → Numbers  
-- **+ − * /** → Operators  
-- **Enter** → Equals (=)  
-- **Backspace** → Delete last input  
-- **Esc** → Clear screen  
+This project was created for academic purposes as part of the **Elective 3** subject.
 
 ---
 
-## 🎯 Project Purpose
-The main goal of this project is to demonstrate:
-- Proper separation of concerns (HTML, CSS, JavaScript)
-- DOM manipulation
-- Event handling
-- Input validation
-- Clean and organized code structure
+## 👤 Student Information
+- **Name:** MARK JOHN PAUL VILLACORTA  
+- **Course & Section:** 4-BSIT-D  
+- **Subject:** Elective 3  
 
 ---
 
-## 📜 License
-This project is for **educational purposes only**.
+## ⚙️ Features
+- Basic arithmetic operations (+, −, ×, ÷)
+- ON / OFF functionality
+- Clear (C) and All Clear (AC) buttons
+- Backspace (⌫) support
+- Keyboard input support
+- Calculation history display
+- Responsive and clean UI design
 
 ---
 
-## ✅ Author
-**MARK JOHN PAUL VILLACORTA**  
-4-BSIT-D  
-Elective 3
+## 🛠️ Technologies Used
+- **HTML5** – Structure of the application  
+- **CSS3** – Styling and responsive design  
+- **JavaScript (ES6)** – Logic and interactivity  
+
+---
+
+## 📁 File Structure

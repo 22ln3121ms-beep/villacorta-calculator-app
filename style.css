@@ -1,0 +1,102 @@
+body {
+    font-family: 'Comic Sans MS', 'Arial Rounded MT Bold', Arial, sans-serif;
+    background: linear-gradient(#87CEEB, #E0FFFF);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Calculator Body */
+.calculator {
+    background: #FFD700;
+    padding: 20px 25px 25px;
+    border-radius: 20px;
+    width: 360px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.35);
+    border: 4px solid #DAA520;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    margin-bottom: 10px;
+    padding-bottom: 8px;
+    border-bottom: 3px dashed #8B4513;
+}
+
+.header h1 {
+    font-size: 16px;
+    margin: 0;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.header p {
+    font-size: 12px;
+    margin: 2px 0 0;
+    font-weight: bold;
+}
+
+/* Display */
+#display {
+    width: 100%;
+    height: 70px;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Courier New', monospace;
+    text-align: right;
+    padding: 0 14px;
+    background: #F5F5DC;
+    border: 3px inset #B8860B;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+
+/* Buttons */
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-top: 15px;
+}
+
+button {
+    height: 55px;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: inset 0 -3px rgba(0,0,0,0.25);
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+button:disabled {
+    background: #D2C77A;
+    color: #8B7D3A;
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+/* Button Colors */
+.on { background: #4CAF50; color: white; }
+.off { background: #FF3B3B; color: white; }
+.ans { background: #4169E1; color: white; }
+.clear { background: #FFA500; color: white; }
+.ac { background: #B22222; color: white; }
+.equal { background: #228B22; color: white; }
+
+.buttons button:not(.on):not(.off):not(.ans):not(.clear):not(.ac):not(.equal):not(.history) {
+    background: #FFF8DC;
+}
+
+.history {
+    grid-column: span 4;
+    background: #8B4513;
+    color: white;
+    height: 55px;
+}
